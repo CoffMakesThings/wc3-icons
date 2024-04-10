@@ -1,5 +1,11 @@
 # Wc3icons
 
+A simple website making the icons of Warcraft III accessible.
+
+https://wc3-icons.coffbox.win/
+
+## Automatically generated Angular Readme
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.3.
 
 ## Development server
