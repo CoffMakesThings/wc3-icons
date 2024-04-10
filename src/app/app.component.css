@@ -1,0 +1,16 @@
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Align items to the start of the container */
+  gap: 10px; /* Space between images */
+}
+
+.image-wrap {
+  flex: 0 1 auto; /* Do not grow, allow shrinking, basis is auto */
+}
+
+img {
+  display: block; /* Remove bottom margin/whitespace inherent to inline elements */
+  max-width: 100%; /* Make images responsive */
+  height: auto; /* Maintain aspect ratio */
+}
