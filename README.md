@@ -2,7 +2,7 @@
 
 A simple website making the icons of Warcraft III accessible.
 
-https://wc3-icons.coffbox.win/
+https://wc3icons.coffbox.win/
 
 ## Automatically generated Angular Readme
 
