@@ -1,8 +1,10 @@
 <h1>WC3 Icons</h1>
-<p>Download the RAR <a href="assets/CommandButtons.rar">Download File</a></p>
+<p>The images in the zip are higher resolution.</p>
+<p>Download all icons as ZIP: <a href="assets/warcraft3_icons.zip">Download</a></p>
 <div class="image-container">
   <div *ngFor="let image of images" class="image-wrap">
     <img width="64" height="64" [ngSrc]="'assets/' + image" [alt]="image" [title]="image">
+    <p class="subtext">{{image}}</p>
   </div>
 </div>
 <p style="float: right">Made by <a href="https://coffbox.win">Coff</a></p>
